@@ -18,10 +18,20 @@ At the prompt of a Claude Code terminal session:
 
 Answer `y` to add the marketplace, then pick a scope (user scope loads it in every session).
 
+The short `owner/repo` form clones over SSH. If you get `Host key verification failed` (a machine whose SSH has never connected to GitHub), use the HTTPS address instead. It needs no SSH setup:
+
+```
+/plugin install reef-life --marketplace https://github.com/jalapenotim/claude-mods.git
+```
+
 From a shell:
 
 ```bash
 claude plugin install reef-life --marketplace jalapenotim/claude-mods
+```
+
+```bash
+claude plugin install reef-life --marketplace https://github.com/jalapenotim/claude-mods.git
 ```
 
 In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `jalapenotim/claude-mods`, then Add plugin.
