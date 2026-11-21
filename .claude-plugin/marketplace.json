@@ -1,0 +1,11 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "jalapenotim" },
+  "plugins": [
+    {
+      "name": "reef-life",
+      "source": "./plugins/reef-life",
+      "description": "A busier Night Reef backdrop: jellyfish, fish schools, kelp, a crab, a seahorse and bubbles."
+    }
+  ]
+}
